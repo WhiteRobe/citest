@@ -62,10 +62,11 @@ node_js:
   - "10"
 ```
 
-再构建一个【.coveralls.yml】文件，填入内容：（注意将该文件列入`.gitignore`）*(对于public的仓库，该步骤非必需)*
+再构建一个【.coveralls.yml】文件，填入内容：（注意将该文件列入`.gitignore`）
 
 ```
 service_name: travis-pro
+repo_token: $YourToken
 ```
 
 > 由于`repo_token`是私密的，所以你应当把`.coveralls.yml`文件列入`.gitignore`，或是通过加密工具将其[加密](https://docs.coveralls.io/api-introduction)，当然你也可以直接省略。
