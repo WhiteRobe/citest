@@ -1,0 +1,17 @@
+{
+  "name": "citest",
+  "version": "1.0.0",
+  "description": "An Travis-CI & Coveralls auto-test demo",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest --coverage --coverageReporters=text-lcov | coveralls"
+  },
+  "author": "WhiteRobe(https://github.com/WhiteRobe)",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^24.8.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.5"
+  }
+}
