@@ -1,3 +1,5 @@
+<img src='https://bettercodehub.com/edge/badge/WhiteRobe/citest?branch=master'>
+
 # 基于Github的自动持续集成测试和报告分析
 
 > 持续集成：简单来说，就是能够多次将代码快速部署到主要版本，用于敏捷开发和保证主干颗粒度不至于过大。
