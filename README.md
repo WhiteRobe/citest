@@ -1,5 +1,3 @@
-<img src='https://bettercodehub.com/edge/badge/WhiteRobe/citest?branch=master'>
-
 # 基于Github的自动持续集成测试和报告分析
 
 > 持续集成：简单来说，就是能够多次将代码快速部署到主要版本，用于敏捷开发和保证主干颗粒度不至于过大。
@@ -83,3 +81,7 @@ repo_token: $YourToken
 Travis-CI 测试结果：![](https://api.travis-ci.org/WhiteRobe/citest.svg?branch=master)
 
 Coveralls 报告结果：[![Coverage Status](https://coveralls.io/repos/github/WhiteRobe/citest/badge.svg?branch=master)](https://coveralls.io/github/WhiteRobe/citest?branch=master)
+
+### BetterCodeHub
+
+BetterCodeHub 测试结果: <img src='https://bettercodehub.com/edge/badge/WhiteRobe/citest?branch=master'>
